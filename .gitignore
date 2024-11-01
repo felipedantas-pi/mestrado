@@ -26,8 +26,6 @@ venv/
 # Ignore configurações de editor específicas
 .vscode/
 .idea/
-*.sublime-workspace
-*.sublime-project
 
 # Ignore saídas de gráficos e imagens, caso estejam temporários
 *.png
@@ -38,3 +36,18 @@ venv/
 # Ignore metadados de sistema
 .DS_Store
 Thumbs.db
+
+# shapefile
+# *.cpg
+# *.dbf
+# *.prj
+# *.shx
+# *.shp
+# *.sbn
+# *.sbx
+
+# geojson files grandes
+#.geojson
+
+# comprimidos
+*.zip
